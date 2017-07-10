@@ -1,0 +1,41 @@
+body {
+	background-color: DarkCyan;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+main {
+	width: 70%;
+	float: left;
+}
+
+aside {
+	width: 30%;
+}
+
+nav {
+	background-color: Orange;
+	height: 30px;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+}
+
+.flex-container {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	background-color: seagreen;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.flex-item {
+	background-color: hotpink;
+	width: 30%;
+	margin: 10px;
+}
